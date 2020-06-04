@@ -1,15 +1,15 @@
-import React from 'react';
-import Display from './Display';
-import ButtonPad from './ButtonPad';
+import React, { useState } from "react";
+import ButtonPad from "./ButtonPad";
 
-
-function Counter() {
-    return (
-        <div className="counter">
-            <Display/>
-            <ButtonPad/>
-        </div>
-    )
+function Counter(props) {
+  return (
+    <div className="counter">
+      <div>
+        <span>{props.count}</span>
+      </div>
+      <ButtonPad />
+    </div>
+  );
 }
 
 export default Counter;

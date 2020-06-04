@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: blue;
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button-pad button {
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 12px;
+  background-color: blue;
+  color: white;
+}
+
+.button-pad button:hover {
+  background-color: darkblue;
+}
+
+.button-pad button:active {
+  background-color: darkblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
