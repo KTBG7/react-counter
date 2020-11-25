@@ -1,15 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Counter from './Components/Counter';
+import React from "react";
+import "./App.css";
+import Counter from "./Components/Counter";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Counter App</h2>
+        <h2>This is my Simple React Counter</h2>
       </header>
-      <Counter/>
+      <Counter />
+      <footer> By Kevin Ibanez</footer>
     </div>
   );
 }
