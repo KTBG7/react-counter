@@ -3,12 +3,12 @@ import ButtonPad from "./ButtonPad";
 
 function Counter(props) {
   return (
-    <div className="counter">
-      <div>
-        <span>{props.count}</span>
+      <div className="container">
+        <div className="display-box">
+          <h1>{props.count}</h1>
+          <ButtonPad />
+        </div>
       </div>
-      <ButtonPad />
-    </div>
   );
 }
 
